@@ -12,7 +12,7 @@ function reversesentence(sentence){
     .split(' ')
     .map(reverseword)
     .join(' ')
-},
+}
 
 async function decipherfile(filename){
     try {
